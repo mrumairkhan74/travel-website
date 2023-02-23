@@ -1,0 +1,135 @@
+.navigation{
+    flex-direction: column;
+    background: none;
+}
+/* Logo and heading */
+.icon{
+    width: 50px;
+}
+.text1 h1{
+    font-size: 50px;
+}
+.navbar ul li a{
+    font-size: 1rem;
+    padding: 6px 10px;
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 10px;
+}
+.btn a{
+    font-size: 1rem;
+}
+/* Login Page */
+.box{
+    min-height: 75vh;
+}
+.box1{
+    width: 300px;
+    height: 340px;
+}
+.box1::before{
+    width: 300px;
+    height: 340px;
+}
+.box1::after{
+    width: 300px;
+    height: 340px;
+}
+/* Login form */
+
+.form{
+    font-size: 1.5rem;
+}
+.inputbox{
+    margin-top: 30px ;
+    width: 210px;
+}
+.inputbox input{
+    font-size: 0.5rem;
+    padding: 10px 5px 5px;
+}
+.inputbox span{
+    padding: 5px 0px 5px;
+    font-size: 1rem;
+}
+.inputbox input:valid~span,
+.inputbox input:focus~span{
+    font-size: 0.5em;
+}
+.inputbox i{
+    height: 1px;
+}
+.inputbox input:valid~i
+.inputbox input:focus~i{
+    height: 20px;
+}
+/* form links */
+.links a{
+    margin: 10px 0;
+    font-size: 1rem;
+}
+.links{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Button input */
+input[type="submit"]{
+    padding: 7px 13px;
+    font-size: 1rem;
+}
+/* Home html */
+.container::before{
+    min-height: 340px;
+}
+
+.home{
+    margin: 75px auto;
+    display: block;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Services */
+
+.flex-container{
+    flex-direction: column;
+    margin: 0px;
+}
+
+/* Contact */
+.box3{
+    width: 50%;
+}
+.box3 textarea{
+    width: 100%;
+}
+
+
+/* Link insta */
+.link img{
+    margin: 5px 10px;
+}
+
+/* Footer */
+.foot{
+    font-size: 0.75rem;
+}
+
+/* utilty classes */
+.h-primary{
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.h-secondary{
+    margin: 50px auto;
+    font-size: 2rem;
+}
+.para{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin: 3px auto;
+    padding: auto;
+}

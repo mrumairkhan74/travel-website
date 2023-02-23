@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+/* Main div */
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10px;
+    position: relative;
+    background: transparent;
+    border-radius: 4px;
+    scroll-behavior: smooth;
+}
+
+/* logo */
+
+.logo
+{
+ display: flex;
+ padding: 1px 1px;
+ color: #000;
+ align-items: center;
+ justify-content: center; 
+ cursor: pointer;
+}
+.icon{
+    width: 50px;
+    display: inline-block;
+    margin: 5px 6px;
+    border: 3px solid #000;
+    border-radius: 50px;
+}
+.icon:hover{
+    background: #f34f34;
+    filter: invert(100%);
+}
+.text{
+    display: inline-block;
+    margin: auto;
+    padding: 0px 13px;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+.text:hover{
+    color: #fff;
+}
+.span1{
+    color: #f34f34;
+    text-decoration: underline;
+    border-radius: 10px;
+    padding: 0 7px;
+    display: inline-block;
+    letter-spacing: 5px;
+}
+.span1:hover{
+    color: #f34f34;
+}
+/* NAvbar */
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 12px 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    color: #000;
+    font-weight: 700;
+}
+.navbar ul li:hover a,
+.navbar ul li.active a{
+    text-decoration: #f34f34 underline;
+    color: #f34f34;
+    border-radius: 6px;
+}
+
+/* Button */
+.btn a{
+    color: #000;
+    font-size: 1.5rem;
+    padding: 12px;
+    font-weight: 700;
+}
+.btn:hover a,
+.btn .active a{
+    text-decoration: underline #fff;
+}
+
+/* Home main */
+
+.container{
+    display: block;
+    margin: auto;
+    width:100% ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container::before{
+    content: '';
+    background: url("../img/bg.jpg") no-repeat center center/cover;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    min-height: 500px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.home{
+    margin: 150px auto ; 
+}
+/* Services */
+.service{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.service h1{
+    display: block;
+    margin: auto;
+    padding: 50px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.flex-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.flex-box{
+    display: block;
+    width: 400px;
+    height: 470px;
+    border: 4px solid #000;
+    border-radius: 20px;
+    margin: 10px 20px;
+}
+.flex-box .imp{
+    display: block;
+    margin:  20px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 12px 20px;
+}
+.img1{
+    width: 300px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    border: 3px solid #fff;
+    border-radius: 9px;
+}
+.imp h2{
+    font-size: 2rem;
+    margin: 10px auto;
+}
+.btn1{
+    display: block;
+    width: 50%;
+    margin:  10px auto;
+}
+.btn1{
+    background: #f34f34;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out 0s;
+}
+.btn1:hover{
+    transform: translateY(15px);
+    background: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 5px solid #f34f34;
+}
+
+/* Contact  us */
+.heading1{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box3{
+    display: block;
+    width: 25%;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box3 form{
+    font-size: 1.5rem;
+    text-align: left;
+}
+.box3 input{
+    font-size: 1rem;
+    border: 2px solid #f34f34;
+    border-radius: 10px;
+    padding: 7px 20px;
+    margin: 10px auto;
+    outline: none;
+    width: 100%;
+}
+.box3 input:hover,
+.box3 input:focus{
+    border: 5px solid #f34f34;
+}
+.box3 textarea{
+    font-size: 1rem;
+    border: 2px solid #f34f34;
+    border-radius: 10px;
+    padding: 7px 20px;
+    margin: 10px auto;
+    outline: none;
+    width: 100%;   
+}
+.box3 textarea:hover,
+.box3 textarea:focus{
+    border: 5px solid #f34f34;
+}
+.box3 .btn3{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f34f34;
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 12px;
+    transition: all 0.5s ease-in-out 0s; 
+}
+.box3 .btn3:hover{
+    background: #f34f34;
+    transform: translateY(-15px);
+
+}
+
+/* Links */
+.link{
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.link img{
+    width: 35px;
+    margin: 15px 20px;
+}
+
+
+/* Footer */
+
+footer{
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #f34f34;
+}
+.foot{
+    font-size: 1.5rem;
+    padding: 6px;
+}
+
+
+/* Utility classs */
+.h-primary{
+    font-size: 4rem;
+    letter-spacing: 5px;
+}
+.h-secondary{
+    font-size: 3rem;
+}
+.para{
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+.span2{
+    background: transparent;
+    color: #f34f34;
+    text-transform: uppercase;
+
+}
